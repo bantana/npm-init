@@ -21,3 +21,5 @@ package.json:
 ```sh
 npm run -s dev ./src/index.ts
 ```
+
+test
