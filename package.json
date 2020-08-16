@@ -25,10 +25,12 @@
   "devDependencies": {
     "@types/jest": "latest",
     "@types/node": "latest",
+    "eslint": "^7.7.0",
     "jest": "latest",
     "ts-jest": "latest",
     "ts-node": "latest",
-    "typescript": "next"
+    "typescript": "next",
+    "typescript-eslint-language-service": "^3.1.0"
   },
   "dependencies": {}
 }
