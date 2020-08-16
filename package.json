@@ -1,0 +1,34 @@
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "npm project init",
+  "scripts": {
+    "test": "jest --watch --onlyChanged",
+    "dev": "node --loader ts-node/esm.mjs --experimental-top-level-await --no-warnings "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bantana/npm-init.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript",
+    "javascript",
+    "jest"
+  ],
+  "author": "bantana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bantana/npm-init/issues"
+  },
+  "homepage": "https://github.com/bantana/npm-init#readme",
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "jest": "latest",
+    "ts-jest": "latest",
+    "ts-node": "latest",
+    "typescript": "next"
+  },
+  "dependencies": {}
+}
