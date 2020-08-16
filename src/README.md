@@ -7,5 +7,5 @@
 ```
 
 ```sh
-node --loader ts-node/esm.mjs --experimental-top-level-await index.ts
+node --no-warnings --loader ts-node/esm.mjs --experimental-top-level-await index.ts
 ```

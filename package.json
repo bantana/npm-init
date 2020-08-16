@@ -4,7 +4,7 @@
   "description": "npm project init",
   "scripts": {
     "test": "jest --watch --onlyChanged",
-    "dev": "node --loader ts-node/esm.mjs --experimental-top-level-await --no-warnings "
+    "dev": "node --no-warnings --loader ts-node/esm.mjs --experimental-top-level-await "
   },
   "repository": {
     "type": "git",
